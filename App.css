@@ -1,0 +1,82 @@
+html, body{
+height: 100%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  height: 250vh;
+  background-image: url('cloudyweather.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  background: rgba(3, 208, 240, 0.1); /* Slight black transparency for better contrast */
+  border-radius: 20px;
+  padding: 30px;
+  width: 200vh;
+  height: 10%;
+  box-shadow: 0 10px 30px rgba(6, 6, 6, 0.663);
+
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+input {
+  padding: 12px;
+  width: 100%;
+  margin: 15px 0;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(163, 38, 38, 0.2);
+  margin: 80px 20px;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+h2, p {
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
